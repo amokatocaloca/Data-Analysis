@@ -23,8 +23,6 @@ Process the Data:
 
 Run the following command to execute the data processing script:
 
-bash
-Копировать
 python data_processing.py
 This script will read the JSON data, convert it into CSV format.
 
