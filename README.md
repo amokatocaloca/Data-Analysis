@@ -1,41 +1,34 @@
-Topic Modeling task
-
-This repository contains the code and data for a project that processes raw JSON data into CSV format and then applies topic modeling techniques to extract themes.
+This repository contains the code and data for a project that processes raw JSON data into CSV format and then applies topic modeling techniques to extract coherent themes.
 
 Overview
-Raw Data: The initial dataset is provided in JSON format.
+Raw Data:
+The initial dataset is provided in JSON format.
 
-Data Processing: The JSON data is converted into CSV format using the data_processing.py script.
+Data Processing:
+The JSON data is converted into CSV format using the data_processing.py script.
 
-Modeling: The modeling.ipynb Jupyter Notebook reads the processed CSV data and performs topic modeling to identify key themes.
-
-
-
-Modeling
-The Jupyter Notebook (modeling.ipynb) loads the processed data from the csv file.
-
-Topic modeling is applied to extract and analyze coherent themes within the data.
-
-Running the notebook will display the results, including visualizations and key insights derived from the topic modeling analysis.
+Modeling:
+The modeling.ipynb Jupyter Notebook loads the processed CSV data and applies topic modeling to identify key themes within the dataset. Running the notebook will display visualizations and key insights derived from the analysis.
 
 How to Run
-Process the Data:
+1. Process the Data
+Run the following command to execute the data processing script, which reads the raw JSON data and converts it into CSV format:
 
-Run the following command to execute the data processing script:
-
+bash
+Копировать
 python data_processing.py
-This script will read the JSON data, convert it into CSV format.
-
-Run the Modeling Notebook:
-
-Open the modeling.ipynb file and run the cells to see the topic modeling results.
+2. Run the Modeling Notebook
+Open the modeling.ipynb file in Jupyter Notebook and run all the cells to see the topic modeling results.
 
 Requirements
 Python 3.x
 
-Packages listed in requirements.txt (install them with pip install -r requirements.txt)
+Install the required Python packages by running:
 
-Jupyter Notebook
+bash
+Копировать
+pip install -r requirements.txt
+Jupyter Notebook (to run the modeling.ipynb file)
 
 Repository Structure
 data_processing.py – Script to convert raw JSON data into CSV format.
@@ -43,3 +36,5 @@ data_processing.py – Script to convert raw JSON data into CSV format.
 modeling.ipynb – Jupyter Notebook for performing topic modeling analysis.
 
 requirements.txt – List of Python dependencies.
+
+(Optionally, include any raw data files or a README file that describes where to find the raw JSON data if not included in the repository.)
