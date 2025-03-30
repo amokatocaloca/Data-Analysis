@@ -2,7 +2,7 @@ import json
 import pandas as pd
 
 # Load JSON data from file
-with open("dataset_tumblr-scraper_2025-01-23_14-00-48-170.json", "r", encoding="utf-8") as file:
+with open("tumblr_data.json", "r", encoding="utf-8") as file:
     tumblr_data = json.load(file)
 
 # Function to extract post content text and assign unique IDs
@@ -35,4 +35,4 @@ def extract_tumblr_posts(tumblr_data):
 df = extract_tumblr_posts(tumblr_data)
 
 # Save extracted data to CSV
-df.to_csv("tumblr_posts_extracted.csv", index=False)
+df.to_csv("tumblr_data.csv", index=False)
