@@ -15,7 +15,6 @@ How to Run
 Run the following command to execute the data processing script, which reads the raw JSON data and converts it into CSV format:
 
 bash
-Копировать
 python data_processing.py
 2. Run the Modeling Notebook
 Open the modeling.ipynb file in Jupyter Notebook and run all the cells to see the topic modeling results.
@@ -26,7 +25,6 @@ Python 3.x
 Install the required Python packages by running:
 
 bash
-Копировать
 pip install -r requirements.txt
 Jupyter Notebook (to run the modeling.ipynb file)
 
@@ -36,5 +34,3 @@ data_processing.py – Script to convert raw JSON data into CSV format.
 modeling.ipynb – Jupyter Notebook for performing topic modeling analysis.
 
 requirements.txt – List of Python dependencies.
-
-(Optionally, include any raw data files or a README file that describes where to find the raw JSON data if not included in the repository.)
